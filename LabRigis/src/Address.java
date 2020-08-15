@@ -13,8 +13,8 @@ public class Address {
 	}
 
 	void printAddress() {
-		System.out.print("Address: "+streetAddress );
-		System.out.print(" "+district + " " + city);
-		System.out.println(" "+zipCode+"\n");
+		System.out.print("Address: " + streetAddress);
+		System.out.print(" " + district + " " + city);
+		System.out.println(" " + zipCode + "\n");
 	}
 }

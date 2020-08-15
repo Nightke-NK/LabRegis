@@ -25,22 +25,27 @@ public class Main {
 		Address a1 = new Address("111 Huaykaew", "Muang", "Chiang Mai", "50300");
 		Student s1 = new Student(1, "Chris", "Evans", "Student", 4.00);
 		s1.setAddress(a1);
+		s1.setDOB("11-10-2541");
 
 		Address a2 = new Address("222 Huaykaew", "Muang", "Chiang Mai", "50300");
 		Professor p2 = new Professor(2, "Jack", "Owen", "Professer", 12000);
 		p2.setAddress(a2);
-		
+		p2.setDOB("01-01-2530");
+
 		Address a3 = new Address("333 Huaykaew", "Muang", "Chiang Mai", "50300");
 		Student s3 = new Student(3, "Taylor", "Swift", "Student", 3.50);
 		s3.setAddress(a3);
-		
+		s3.setDOB("29-12-2541");
+
 		Address a4 = new Address("444 Huaykaew", "Muang", "Chiang Mai", "50300");
 		Student s4 = new Student(4, "Emma", "Watson", "Student", 2.50);
 		s4.setAddress(a4);
-		
+		s4.setDOB("13-05-2541");
+
 		Address a5 = new Address("555 Huaykaew", "Muang", "Chiang Mai", "50300");
 		Professor p5 = new Professor(5, "Brad", "Pitt", "Professer", 15000);
 		p5.setAddress(a5);
+		p5.setDOB("18-09-2530");
 
 		Student s0 = new Student();
 		Professor p0 = new Professor();
